@@ -1,0 +1,172 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(137, 56, 210, 1) 0%, rgba(27, 45, 157, 1) 100%);
+}
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: bold; */
+    /* font-weight: 900; */
+    font-size: 6rem;
+    line-height: 1.5;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 2.25rem;
+}
+
+h4,p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.75rem;
+
+}
+
+hr {
+    background-color: orange;
+    height: 12px;
+    border-radius: 12px;
+    /* border: 20px; */
+    margin-right: 65%; /* Adjust margin as needed */
+  }
+
+bg-img {
+    background: url(img/bg1.png);
+    background-repeat: no-repeat;
+    background-size: 300px 100px;
+}
+
+.next {
+    right: 75px;
+    bottom: 75px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+.next-img {
+    width: 100px;
+}
+
+.main-h1 {
+    color: white;
+    margin-top: 15%;
+    
+}
+
+.container-fluid {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+#myPageContent,
+section {
+    height: 100% !important;
+    width: 100% !important;
+}
+/* ================================================= */
+
+/* First page */
+
+#title {
+    /* background-color: #00B274; */
+    padding-left: 10%;
+    padding-right: 10%;
+    position: relative;
+}
+
+.created-by {
+    margin-top: 25%;
+}
+
+
+
+/* ================================================ */
+
+
+#aboutme {
+    padding-left: 10%;
+    padding-right: 10%;
+    position: relative;
+}
+
+.dp {
+    margin-top: 15%;
+    margin-left: 10%;
+	border-radius: 100%;
+    width: 60%;
+    border: 15px solid orange;
+
+    position: absolute;
+    z-index: 1;
+}
+
+.blocks2 {
+    transform: rotate(60deg);
+    position: absolute;
+    margin-top: 50%;
+    width: 75%;
+    /* right: 40%; */
+    left: 5%;
+    z-index: 0;
+}
+
+/* ====================================================== */
+
+#education {
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+}
+
+.ed-card {
+    border-radius: 10%;
+    background-color: white;
+    height: 500px;
+    margin-top: 20%;
+}
+
+/* .ed-img {
+    width: 10%;
+} */
+
+.ed-info-card {
+    margin-left: 15%;
+    border-radius: 10%;
+    height: 500px;
+    background-color: #502779;
+    padding: 10% 10%;
+}
+
+.ed-text {
+    color: gray;
+}
+
+.blocks3 {
+    transform: rotate(80deg);
+    position: absolute;
+}
+
+
+/* ============================================== */
+
+#projects {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+}
+
+hr {
+    background-color: orange;
+    height: 12px;
+    border-radius: 12px;
+    /* border: 20px; */
+    margin-right: 40%; /* Adjust margin as needed */
+  }
