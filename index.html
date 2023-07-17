@@ -18,6 +18,17 @@
 	<script src="script.js"></script>
 
 </head>
+<script>
+	function redirectMobileHandler() {
+    const width = Math.max(document.clientWidth || 0, window.innerWidth || 0);
+    if(width < 1000) {
+      window.location = 'mobile.html';
+    }
+  }
+  
+  window.onload = redirectMobileHandler();
+  window.onresize = () => redirectMobileHandler();
+</script>
 
 <body data-spy="scroll" data-offset="0" data-target="#myNavbar">
 	<div class="sidenav" id="sidenav" onclick="showSide()">
