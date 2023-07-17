@@ -6,6 +6,14 @@ $(document).ready(function(){
     });
 });
 
-
+function redirectMobileHandler() {
+    const width = Math.max(document.clientWidth || 0, window.innerWidth || 0);
+    if(width < 1000) {
+      window.location = 'mobile.html';
+    }
+  }
+  
+  window.onload = redirectMobileHandler();
+  window.onresize = () => redirectMobileHandler();
 
 // window.onscroll = function() {};

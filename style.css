@@ -211,3 +211,14 @@ section {
     border-top-right-radius: 10%;
     border-bottom-right-radius: 10%;
 }
+
+.mobile {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    color: greenyellow;
+    /* background-color: wheat; */
+    font-size: 20em;
+    text-align: center;
+    line-height: 5em;
+}
